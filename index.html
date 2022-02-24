@@ -244,7 +244,7 @@
     </div>
       
       
-    <div id="form-section">
+    <div class="w-50 m-auto text-center" id="form-section">
       <h2>Contact me</h2>
       <p id="contact-me">If you have an application you are interested in developing, a feature that you need built or a project that needs coding, I’d love to help with it
       </p>
@@ -252,10 +252,10 @@
       <br>
       <form
         action="https://formspree.io/f/xknyrjqn" method="POST" id="html-form">
-        <fieldset>
-          <input type="text" name="firstname" id="name" maxlength="30" placeholder="Enter your name" id="fields" required/>
-          <input type="email" id="email" name="email" placeholder="Email" id="fields" required/>
-          <textarea name="comments" id="comments" maxlength="500" placeholder="Write your message here" id="fields" required></textarea>
+        <fieldset class="row">
+          <input class="col-8 m-auto mb-3 py-2 " type="text" name="firstname" id="name" maxlength="30" placeholder="Enter your name" id="fields" required/>
+          <input class="col-8 m-auto mb-3 py-2" type="email" id="email" name="email" placeholder="Email" id="fields" required/>
+          <textarea class="col-8 m-auto mb-3 pb-5" name="comments" id="comments" maxlength="500" placeholder="Write your message here" id="fields" required></textarea>
         </fieldset>
         <input type="submit" name="submit" id="submit" value="Get in touch">
       </form>
